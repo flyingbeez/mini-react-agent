@@ -1,0 +1,9 @@
+# 本项目零运行时依赖，只用 Python 标准库。
+# requirements.txt 保留是为了让 `pip install -r requirements.txt` 不报错。
+#
+# 需要 Python >= 3.10（用到了 X | Y 联合类型语法）。
+
+# ---- 可选：开发与质量工具（不装也能跑） ----
+# pytest>=8.0        # 也可以用自带的 python run_tests.py
+# ruff>=0.5          # 代码风格检查
+# mypy>=1.10         # 类型检查
